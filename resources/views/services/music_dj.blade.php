@@ -17,7 +17,7 @@
                                     <a title="Homepage" href="index-2.html">Home</a>
                                 </span>
                                 <span class="ttm-bread-sep">&gt;</span>
-                                <span> Live Music & Dj</span>
+                                <span style="color: #e7b2ff;">  Beats & Bliss: Wedco's Soundtrack to Forever</span>
                             </div>
                         </div>
                     </div>
@@ -39,7 +39,7 @@
                             <aside class="widget widget-nav-menu">
                                 <ul class="widget-menu">
                                     <li><a href="{{ route('decoration') }}"> Lovely Decoration </a></li>
-                                    <li class="active"><a href=""> Live Music & Dj </a></li>
+                                    <li class="active"><a href="#"> Live Music & Dj </a></li>
                                     <li><a href="{{ route('food') }}"> Dinner & Drinks </a></li>
                                     <li><a href="{{ route('seating') }}"> Seating Chart </a></li>
                                     <li><a href="{{ route('sourcing') }}"> Responsible Sourcing </a></li>
@@ -48,7 +48,7 @@
                             </aside>
                             <aside class="widget widget-banner">
                                 <div class="contact_img">
-                                    <img class="img-fluid" src="images/single-img-09.jpg" alt="single_09">
+                                    <img class="img-fluid" src="{{asset('images/music-dj.jpeg')}}" alt="single_09">
                                 </div>                                
                             </aside>
                             <aside class="widget tagcloud-widget with-title">
@@ -96,36 +96,20 @@
                         <div class="col-lg-8 content-area">
                             <div class="ttm-service-single-content-area">
                                 <div class="ttm-featured-wrapper mb-35 res-991-mb-40">
-                                    <img class="img-fluid" src="images/services/services-02.jpg" alt="">
+                                    <img class="img-fluid" src="{{asset('images/services/wedding-music.jpeg')}}" alt="">
                                 </div>
                                 <div class="ttm-service-description">
                                     <div class="mb-35 res-991-mb-40">
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <strong>Ut enim ad minim veniam,</strong> quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur Excepteur sint occaecat cupidatat non proident, sunt in <u><a class="ttm-textcolor-skincolor" href="#">culpaqui officia</a></u> deserunt mollit&nbsp;.</p>
+                                        <p class="white-text" style="font-family:'Croissant One', 'Great Vibes', 'Lobster', 'Roboto', 'Rubik'; font-weight: 100;">Picture this: your love story unfolds on the dance floor, each song a brushstroke painting memories on the canvas of the night. Wedco's DJs aren't just music players, they're architects of sonic dreamscapes, weaving the perfect soundtrack to your forever. From heart-melting first dances to joyous singalongs, we curate the rhythm of your celebration, ensuring every beat reflects the magic of your love. So, raise your glasses, darling, and let the music whisk you away on a whirlwind of laughter, tears, and pure, unadulterated bliss. Wedco - where every note whispers "I do." ✨</p>
                                     </div>
                                     <div class="row">
                                         <div class="col-md-6">
-                                            <img class="img-fluid" src="images/services/services-01-1200x800.jpg" alt="image"> 
+                                            <img class="img-fluid" src="{{asset('images/services/maestro.jpeg')}}" alt="image"> 
                                         </div>
                                         <div class="col-md-6">
                                             <div class="res-767-mt-30">
-                                            <h4>Night DJ Event</h4>
-                                            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium <u><a class="ttm-textcolor-skincolor" href="#">doloremque</a></u> laudantium, <strong>inventore</strong> veritatis et quasi architecto beatae.</p>
-                                            <div class="mt-10">
-                                            <ul class="ttm-list ttm-list-style-icon mb-15">
-                                                <li>
-                                                    <i class="fa fa-arrow-circle-right ttm-textcolor-skincolor"></i>
-                                                    <div class="ttm-list-li-content">Sed elementum ante nec urna</div>
-                                                </li>
-                                                <li>
-                                                    <i class="fa fa-arrow-circle-right ttm-textcolor-skincolor"></i>
-                                                    <div class="ttm-list-li-content">Duis id orci feugiat laoreet</div>
-                                                </li>
-                                                <li>
-                                                    <i class="fa fa-arrow-circle-right ttm-textcolor-skincolor"></i>
-                                                    <div class="ttm-list-li-content">Donec mollis mi in leo elementum</div>
-                                                </li>
-                                            </ul>
-                                            </div>
+                                                <h4 class="white-text" style="color: rgb(212, 254, 255); font-size:20px; font-family:'Croissant One', 'Great Vibes', 'Lobster', 'Roboto', 'Rubik'; font-weight: 50;">Find Your Love Song Maestro</h4>
+                                                <p class="white-text" >Forget DJs, find your soul mate on the turntables! Wedco's curated DJ profiles reveal personalities that match your vibe, ensuring your dance floor becomes a love story in every beat.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -133,29 +117,13 @@
                                     <div class="row">
                                         <div class="col-md-6">
                                             <div class="mt-10 res-767-mt-30">
-                                                <img class="img-fluid" src="images/services/services-02-1200x800.jpg" alt="image"> 
+                                                <img class="img-fluid" src="{{asset('images/services/smiles.jpeg')}}" alt="image"> 
                                             </div>
                                         </div>
                                         <div class="col-md-6">
                                             <div class="res-767-mt-30">
-                                            <h4>Night DJ Event</h4>
-                                            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium <u><a class="ttm-textcolor-skincolor" href="#">doloremque</a></u> laudantium, <strong>inventore</strong> veritatis et quasi architecto beatae.</p>
-                                            <div class="mt-10">
-                                            <ul class="ttm-list ttm-list-style-icon mb-15">
-                                                <li>
-                                                    <i class="fa fa-arrow-circle-right ttm-textcolor-skincolor"></i>
-                                                    <div class="ttm-list-li-content">Sed elementum ante nec urna</div>
-                                                </li>
-                                                <li>
-                                                    <i class="fa fa-arrow-circle-right ttm-textcolor-skincolor"></i>
-                                                    <div class="ttm-list-li-content">Duis id orci feugiat laoreet</div>
-                                                </li>
-                                                <li>
-                                                    <i class="fa fa-arrow-circle-right ttm-textcolor-skincolor"></i>
-                                                    <div class="ttm-list-li-content">Donec mollis mi in leo elementum</div>
-                                                </li>
-                                            </ul>
-                                            </div>
+                                                <h4 class="white-text" style="color: rgb(212, 254, 255); font-size:20px; font-family:'Croissant One', 'Great Vibes', 'Lobster', 'Roboto', 'Rubik'; font-weight: 50;">Craft a Symphony of Smiles</h4>
+                                                <p class="white-text">From first-kiss ballads to foot-stomping anthems, build the soundtrack of your dreams. Wedco's playlist builder lets you curate the perfect mix, or collaborate with your DJ to weave a love story in every note.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -163,29 +131,13 @@
                                     <div class="row">
                                         <div class="col-md-6">
                                             <div class="mt-10 res-767-mt-30">
-                                                <img class="img-fluid" src="images/services/services-03-1200x800.jpg" alt="image"> 
+                                                <img class="img-fluid" src="{{asset('images/services/whisper.jpeg')}}" alt="image"> 
                                             </div>
                                         </div>
                                         <div class="col-md-6">
                                             <div class="res-767-mt-30">
-                                            <h4>Music Concert</h4>
-                                            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium <u><a class="ttm-textcolor-skincolor" href="#">doloremque</a></u> laudantium, <strong>inventore</strong> veritatis et quasi architecto beatae.</p>
-                                            <div class="mt-10">
-                                            <ul class="ttm-list ttm-list-style-icon mb-15">
-                                                <li>
-                                                    <i class="fa fa-arrow-circle-right ttm-textcolor-skincolor"></i>
-                                                    <div class="ttm-list-li-content">Sed elementum ante nec urna</div>
-                                                </li>
-                                                <li>
-                                                    <i class="fa fa-arrow-circle-right ttm-textcolor-skincolor"></i>
-                                                    <div class="ttm-list-li-content">Duis id orci feugiat laoreet</div>
-                                                </li>
-                                                <li>
-                                                    <i class="fa fa-arrow-circle-right ttm-textcolor-skincolor"></i>
-                                                    <div class="ttm-list-li-content">Donec mollis mi in leo elementum</div>
-                                                </li>
-                                            </ul>
-                                            </div>
+                                                <h4 class="white-text" style="color: rgb(212, 254, 255); font-size:20px; font-family:'Croissant One', 'Great Vibes', 'Lobster', 'Roboto', 'Rubik'; font-weight: 50;">Let the Music Whisper "I Do"</h4>
+                                                <p class="white-text">Wedco's musical matchmakers are your secret weapon. Chat with our experts, get insider tips, and unlock the secrets to a celebration where every beat resonates with your love story.</p>
                                             </div>
                                         </div>
                                     </div>

@@ -37,7 +37,7 @@
                     <div class="col-lg-4 widget-area sidebar-right">
                         <aside class="widget widget-nav-menu">
                             <ul class="widget-menu">
-                                <li class="active"><a href="{{ route('decoration') }}"> Lovely Decoration </a></li>
+                                <li class="active"><a href="#"> Lovely Decoration </a></li>
                                 <li><a href="{{ route('music') }}"> Live Music & Dj </a></li>
                                 <li><a href="{{ route('food') }}"> Dinner & Drinks </a></li>
                                 <li><a href="{{ route('seating') }}"> Seating Chart </a></li>
