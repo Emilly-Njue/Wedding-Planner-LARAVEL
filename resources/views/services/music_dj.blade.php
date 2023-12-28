@@ -28,7 +28,7 @@
 
 
         <!--site-main start-->
-        <div class="site-main">
+        <div class="site-main" style="background: linear-gradient(to right, rgb(140, 201, 255), rgb(35, 4, 27), rgb(52, 44, 78), rgb(132, 58, 55));">
 
 
             <div class="ttm-row sidebar ttm-sidebar-right clearfix">
@@ -38,12 +38,12 @@
                         <div class="col-lg-4 widget-area sidebar-right">
                             <aside class="widget widget-nav-menu">
                                 <ul class="widget-menu">
-                                    <li><a href="lovely-decoration.html"> Lovely Decoration </a></li>
-                                    <li class="active"><a href="live-music-and-dj.html"> Live Music & Dj </a></li>
-                                    <li><a href="dinner-and-drinks.html"> Dinner & Drinks </a></li>
-                                    <li><a href="seating-chart.html"> Seating Chart </a></li>
-                                    <li><a href="responsible-sourcing.html"> Responsible Sourcing </a></li>
-                                    <li><a href="costume-services.html"> Costume Services </a></li>
+                                    <li><a href="{{ route('decoration') }}"> Lovely Decoration </a></li>
+                                    <li class="active"><a href=""> Live Music & Dj </a></li>
+                                    <li><a href="{{ route('food') }}"> Dinner & Drinks </a></li>
+                                    <li><a href="{{ route('seating') }}"> Seating Chart </a></li>
+                                    <li><a href="{{ route('sourcing') }}"> Responsible Sourcing </a></li>
+                                    <li><a href="{{ route('costume') }}"> Costume Services </a></li>
                                 </ul>
                             </aside>
                             <aside class="widget widget-banner">
