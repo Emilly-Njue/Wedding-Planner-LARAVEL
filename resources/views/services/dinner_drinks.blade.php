@@ -75,9 +75,9 @@
                                                         <span class="orderby">
                                                             <select name="orderby" class="select2-hidden-accessible">
                                                                 <option value="menu_order" selected="selected">Visit Venue</option>
-                                                                <option value="popularity">Newyork</option>
-                                                                <option value="rating">California</option>
-                                                                <option value="date">France</option>
+                                                                <option value="popularity">Diani</option>
+                                                                <option value="rating">Nairobi</option>
+                                                                <option value="date">Naivasha</option>
                                                             </select>
                                                         </span>
                                                     </span>
@@ -100,12 +100,12 @@
                             </div>
                             <div class="ttm-service-description">
                                 <div class="mb-35">
-                                    <p>Lorem Ipsum has been the industry’s standard dummy text <strong>ever since the 1500s, </strong>when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset <u><a class="ttm-textcolor-skincolor" href="#">sheets containing</a></u> Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                                    <p class="white-text" class="white-text" style="font-family:'Croissant One', 'Great Vibes', 'Lobster', 'Roboto', 'Rubik'; font-weight: 100;">Forget bland buffets and predictable pours. Wedco elevates your wedding feast from mere sustenance to a symphony of flavors, a visual masterpiece, and a celebration of love in every delectable bite and joyful clink. Dive into our world of culinary artistry and toast to a day where dinner dances, drinks dazzle, and every guest savors the memories long after the plates are cleared.</p>
                                 </div>
                                 <div class="row">
                                     <div class="col-lg-7 col-md-7 col-sm-12">
-                                        <h4>With Advanced Analytics, you can:</h4>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, <strong>pulvinar dapibus leo.</strong></p>
+                                        <h4 style="color: rgb(212, 254, 255); font-size:20px; font-family:'Croissant One', 'Great Vibes', 'Lobster', 'Roboto', 'Rubik'; font-weight: 50;">Feast Your Eyes & Souls: The Art of Wedding Menus:</h4>
+                                        <p class="white-text"><strong>More Than Just Food, It's an Experience:</strong> From interactive cooking stations to themed table settings, we orchestrate a culinary adventure. Imagine hand-rolled pasta stations where guests become chefs, or floating dessert islands brimming with whimsical confections.</p>
                                         <div class="mt-35">
                                             <div class="featured-icon-box style4 icon-align-before-content icon-ver_align-top">
                                                 <div class="featured-icon">
@@ -115,10 +115,10 @@
                                                 </div>
                                                 <div class="featured-content">
                                                     <div class="featured-title">
-                                                        <h5>Fresh Ingredients</h5>
+                                                        <h5 style="color: rgb(212, 254, 255); font-size:20px; font-family:'Croissant One', 'Great Vibes', 'Lobster', 'Roboto', 'Rubik'; font-weight: 50;">Flavors that Whisper "Forever":</h5>
                                                     </div>
                                                     <div class="featured-desc">
-                                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis.</p>
+                                                        <p class="white-text">Forget generic options. We create dishes that tell your story, incorporating symbolic ingredients, family recipes, or cultural nods that weave joy and nostalgia into every morsel.</p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -132,36 +132,36 @@
                                                 </div>
                                                 <div class="featured-content">
                                                     <div class="featured-title">
-                                                        <h5>Best Catering</h5>
+                                                        <h5 style="color: rgb(212, 254, 255); font-size:20px; font-family:'Croissant One', 'Great Vibes', 'Lobster', 'Roboto', 'Rubik'; font-weight: 50;">A Culinary Canvas:</h5>
                                                     </div>
                                                     <div class="featured-desc">
-                                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis.</p>
+                                                        <p class="white-text">We paint with ingredients, crafting personalized menus that reflect your taste, theme, and love story. Think Tuscan sunsets in slow-cooked lamb, whimsical garden vibes in edible flower desserts, or sizzling coastal romance in ocean-fresh seafood delights.</p>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="col-lg-5 col-md-5 col-sm-12">
-                                        <img class="img-fluid" src="images/services/services-01-900x800.jpg" alt="image">
+                                        <img class="img-fluid" src="{{asset('images/services/buffet.jpeg')}}" alt="image">
                                     </div>
                                 </div>
-                                    <h4 class="mt-25">Advanced Analytics Supports Better Decision Making</h4>
+                                    <h4 class="mt-25" style="color: rgb(212, 254, 255); font-size:20px; font-family:'Croissant One', 'Great Vibes', 'Lobster', 'Roboto', 'Rubik'; font-weight: 50;">Let's Raise a Glass to Love: Crafting Your Signature Cocktail</h4>
                                 <div class="mb-15">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo. Lorem ipsum dolor sit amet, <u><a class="ttm-textcolor-skincolor" href="#">consectetur Lorem ipsum</a></u> dolor sit adipiscing elit. Ut elit tellus, luctus nec massa quis pusg ullamcorper mattis, pulvinar dapibus.</p>
+                                    <p class="white-text"><strong>Shaken with Style, Stirred with Soul:</strong> Forget watered-down mojitos. We design bespoke cocktails that capture your vibe, be it bubbly mimosas for a garden brunch, smoky speakeasy concoctions for a roaring twenties bash, or tropical tiki libations for a beachside celebration.</p>
                                 </div>
                                 <div class="row">
                                     <div class="col-lg-6 col-md-6 col-sm-12">
                                         <div class="mt-10 res-991-mt-20">
-                                            <img class="img-fluid" src="images/services/services-02-900x800.jpg" alt="image"> 
+                                            <img class="img-fluid" src="{{asset('images/services/drink.jpeg')}}" alt="image"> 
                                         </div>
                                     </div>
                                     <div class="col-lg-6 col-md-6 col-sm-12">
                                         <div class="mt-10 res-991-mt-20">
-                                            <img class="img-fluid" src="images/services/services-03-900x800.jpg" alt="image"> 
+                                            <img class="img-fluid" src="{{asset('images/services/drinks.jpeg')}}" alt="image"> 
                                         </div>
                                     </div>
                                 </div>
-                                <p class="pt-30 res-991-mb-0">Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>
+                                <p class="pt-30 res-991-mb-0" style="color: white;"><strong>From Mocktails to Magnificence:</strong> Cater to all palates with an array of non-alcoholic delights that are just as creative and delicious as their boozy counterparts. We believe everyone deserves a toast-worthy treat, regardless of their beverage preference.</p>
                             </div>
                         </div>
                     </div>

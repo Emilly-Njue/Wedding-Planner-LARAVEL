@@ -75,9 +75,9 @@
                                                    <span class="orderby">
                                                        <select name="orderby" class="select2-hidden-accessible">
                                                             <option value="menu_order" selected="selected">Visit Venue</option>
-                                                            <option value="popularity">Newyork</option>
-                                                            <option value="rating">California</option>
-                                                            <option value="date">France</option>
+                                                            <option value="popularity">Diani</option>
+                                                            <option value="rating">Nairobi</option>
+                                                            <option value="date">Naivasha</option>
                                                         </select>
                                                     </span>
                                                 </span>
