@@ -176,7 +176,7 @@
                                                 </div><!--featured-thumbnail end-->
                                                 <div class="featured-content">
                                                     <div class="featured-title">
-                                                        <h5><a href="best-florists.html">Best Florists</a></h5>
+                                                        <h5><a href="{{ route('florist') }}">Best Florists</a></h5>
                                                     </div>
                                                 </div>
                                             </div><!--ttm-box-view-overlay end-->
