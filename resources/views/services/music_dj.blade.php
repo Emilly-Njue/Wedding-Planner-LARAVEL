@@ -14,7 +14,7 @@
                             </div>
                             <div class="breadcrumb-wrapper">
                                 <span>
-                                    <a title="Homepage" href="index-2.html">Home</a>
+                                    <a title="Homepage" href="/">Home</a>
                                 </span>
                                 <span class="ttm-bread-sep">&gt;</span>
                                 <span style="color: #e7b2ff;">  Beats & Bliss: Wedco's Soundtrack to Forever</span>
