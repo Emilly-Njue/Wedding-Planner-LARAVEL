@@ -17,7 +17,7 @@
                                 <a title="Homepage" href="/">Home</a>
                             </span>
                             <span class="ttm-bread-sep">&gt;</span>
-                            <span style="color: #e7b2ff;"> Seating Chart</span>
+                            <span style="color: #e7b2ff;"> Table Tales: Where Love Takes a Seat</span>
                         </div>
                     </div>
                 </div>
@@ -28,7 +28,7 @@
 
 
     <!--site-main start-->
-    <div class="site-main">
+    <div class="site-main" style="background: linear-gradient(to right, rgb(140, 201, 255), rgb(35, 4, 27), rgb(52, 44, 78), rgb(132, 58, 55));">
 
 
         <div class="ttm-row sidebar ttm-sidebar-right clearfix">
