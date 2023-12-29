@@ -28,7 +28,6 @@ Route::get('/services/seating', [ServicesController::class, 'seating'])->name('s
 Route::get('/services/music_dj', [ServicesController::class, 'music'])->name('music');
 Route::get('/services/dinner_drinks', [ServicesController::class, 'food'])->name('food');
 Route::get('/services/costume', [ServicesController::class, 'costume'])->name('costume');
-Route::get('/services/responsible_sourcing', [ServicesController::class, 'sourcing'])->name('sourcing');
 
 // PORTFOLIO PAGE
 Route::get('/portfolio/portfolio', [PortfolioController::class, 'portfolio'])->name('portfolio');

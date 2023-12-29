@@ -735,7 +735,7 @@ article.ttm-blog-classic , #payment .payment_box, .coupon_toggle .coupon_code {
 .ttm-btn.ttm-btn-style-border.ttm-btn-color-white:hover, .ttm-btn.ttm-btn-style-fill.ttm-btn-color-white, 
 .ttm-btn.ttm-btn-style-fill.ttm-btn-color-white i, 
 .ttm-textcolor-white .ttm-btn.ttm-btn-style-fill.ttm-btn-color-skincolor:hover, 
-.ttm-btn-color-dark, .ttm-btn-color-darkgrey,  
+.ttm-btn-color-dark,  
 .ttm-bgcolor-skincolor .ttm-btn.ttm-btn-style-fill.ttm-btn-color-white, 
 .ttm-bgcolor-darkgrey .ttm-btn.ttm-btn-style-fill.ttm-btn-color-white, 
 .ttm-bgcolor-skincolor .row > [class*='col-'] :not(.ttm-bgcolor-white) a.ttm-btn.ttm-btn-style-fill.ttm-btn-color-white, 
@@ -763,6 +763,10 @@ nav.main-menu ul.menu li ul.mega-submenu li a,
 .ttm-tabs.ttm-tab-style-01 ul.tabs li a, .ttm-stickable-header.fixed-header a, 
 .ttm-tabs.ttm-tab-style-01 ul.tabs li a i {
     color:#121f38;
+}
+
+.ttm-btn-color-darkgrey{
+    color: white;
 }
 
 /** DarkGrey-bg-color **/

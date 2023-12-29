@@ -152,31 +152,6 @@
                     <div class="col-lg-4 col-md-6 col-sm-12">
                         <!--featured-icon-box--> 
                         <div class="featured-icon-box icon-align-top-content text-center style2 box-shadow">
-                            <div class="featured-icon">
-                                <div class="ttm-icon ttm-icon_element-onlytxt ttm-icon_element-color-skincolor ttm-icon_element-style-rounded ttm-icon_element-size-sm">
-                                    <i class="flaticon flaticon-curtains"></i>
-                                </div>
-                                <div class="ttm-service-icon-dots"></div>
-                            </div>
-                            <div class="featured-content">
-                                <div class="featured-category">Costume</div>
-                                <div class="featured-title">
-                                    <h5><a href="{{ route('sourcing') }}">Responsible Sourcing</a></h5>
-                                </div>
-                                <div class="featured-desc">
-                                    <p>We always be on time and ready to give you the great service possible.</p>
-                                </div>
-                                <div class="ttm-di_links">
-                                    <a href="{{ route('sourcing') }}" class="di_link">
-                                        <i class="ti ti-arrow-right"></i>
-                                    </a>
-                                </div>
-                            </div>
-                        </div><!--featured-icon-box end-->
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12">
-                        <!--featured-icon-box--> 
-                        <div class="featured-icon-box icon-align-top-content text-center style2 box-shadow">
                             <div class="featured-icon-top-icon">
                             <div class="featured-icon"> 
                                 <div class="ttm-icon ttm-icon_element-onlytxt ttm-icon_element-color-skincolor ttm-icon_element-style-rounded ttm-icon_element-size-sm">

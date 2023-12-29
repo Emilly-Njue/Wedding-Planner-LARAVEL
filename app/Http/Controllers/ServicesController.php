@@ -36,8 +36,4 @@ class ServicesController extends Controller
         return view('services.costume');
     }
 
-    public function sourcing()
-    {
-        return view('services.responsible_sourcing');
-    }
 }

@@ -42,7 +42,6 @@
                                 <li><a href="{{ route('music') }}"> Live Music & Dj </a></li>
                                 <li class="active"><a href="#"> Dinner & Drinks </a></li>
                                 <li><a href="{{ route('seating') }}"> Seating Chart </a></li>
-                                <li><a href="{{ route('sourcing') }}"> Responsible Sourcing </a></li>
                                 <li><a href="{{ route('costume') }}"> Costume Services </a></li>
                             </ul>
                         </aside>
