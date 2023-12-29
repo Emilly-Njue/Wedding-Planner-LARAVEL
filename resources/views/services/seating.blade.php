@@ -48,7 +48,7 @@
                         </aside>
                         <aside class="widget widget-banner">
                             <div class="contact_img">
-                                <img class="img-fluid" src="images/single-img-09.jpg" alt="single_09">
+                                <img class="img-fluid" src="{{asset('images/sit.jpeg')}}" alt="single_09">
                             </div>                                
                         </aside>
                         <aside class="widget tagcloud-widget with-title">
@@ -75,9 +75,9 @@
                                                         <span class="orderby">
                                                             <select name="orderby" class="select2-hidden-accessible">
                                                                 <option value="menu_order" selected="selected">Visit Venue</option>
-                                                                <option value="popularity">Newyork</option>
-                                                                <option value="rating">California</option>
-                                                                <option value="date">France</option>
+                                                                <option value="popularity">Diani</option>
+                                                                <option value="rating">Nairobi</option>
+                                                                <option value="date">Naivasha</option>
                                                             </select>
                                                         </span>
                                                     </span>
