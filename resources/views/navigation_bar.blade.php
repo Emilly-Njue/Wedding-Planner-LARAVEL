@@ -89,7 +89,7 @@
                                     <li class="mega-menu-item">
                                         <a href="#" class="mega-menu-link">Pages</a>
                                         <ul class="mega-submenu">
-                                            <li><a href="about-us-2.html">About Us</a></li>
+                                            <li><a href="{{ route('about-us') }}">About Us</a></li>
                                             <li><a href="{{ route('services') }}">Services</a></li>
                                             <li><a href="our-team.html">Our Team</a></li>
                                         </ul>
