@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ServicesController;
 use App\Http\Controllers\PortfolioController;
 use App\Http\Controllers\AboutController;
+use App\Http\Controllers\contactController;
 
 
 /*
@@ -42,4 +43,6 @@ Route::get('/portfolio/florist', [PortfolioController::class, 'florist'])->name(
 // ABOUT US PAGE
 Route::get('about-us', [AboutController::class, 'about'])->name('about-us');
 
+// CONTACT US PAGE
+Route::get('contact-us', [ContactController::class, 'contact'])->name('contact-us');
 
