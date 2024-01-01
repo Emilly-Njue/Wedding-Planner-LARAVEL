@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ServicesController;
 use App\Http\Controllers\PortfolioController;
+use App\Http\Controllers\AboutController;
 
 
 /*
@@ -38,6 +39,7 @@ Route::get('/portfolio/engagement', [PortfolioController::class, 'engagement'])-
 Route::get('/portfolio/vows', [PortfolioController::class, 'vows'])->name('vows');
 Route::get('/portfolio/florist', [PortfolioController::class, 'florist'])->name('florist');
 
-
+// ABOUT US PAGE
+Route::get('about-us', [AboutController::class, 'about'])->name('about-us');
 
 
