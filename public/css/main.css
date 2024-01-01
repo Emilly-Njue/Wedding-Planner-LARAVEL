@@ -577,8 +577,7 @@ a, img {
 .ttm-list-icon-color-skincolor li i, .ttm-icon_element-border.ttm-icon_element-color-skincolor, 
 .ttm-icon_element-border.ttm-icon_element-color-grey, .ttm-icon_element-fill.ttm-icon_element-color-white, 
 .ttm-icon_element-fill.ttm-icon_element-color-white i, .ttm-icon_element-color-skincolor, 
-.ttm-icon_element-color-skincolor:not(.ttm-icon_element-fill) i, 
- .ttm-bgcolor-darkgrey .ttm-icon_element-color-skincolor i, nav.main-menu ul.menu > li.mega-menu-item:hover > a, 
+.ttm-bgcolor-darkgrey .ttm-icon_element-color-skincolor i, nav.main-menu ul.menu > li.mega-menu-item:hover > a, 
 nav.main-menu ul.menu li > ul.mega-submenu li a:hover, nav.main-menu ul.menu li ul.mega-submenu li.active > a, 
 .ttm-header-style-03 #site-header-menu .site-navigation ul.menu > li >a:hover, 
 .ttm-header-style-03 #site-header-menu .site-navigation ul.menu > li.active >a, 
@@ -607,9 +606,11 @@ nav.main-menu ul.menu li.active > a, .widget_info .widget_icon i, a:hover, .soci
 .coupon_toggle .coupon_code:before, #payment .payment_box:before {
     color: rgb(161, 78, 33);
 }
-
+.ttm-icon_element-color-skincolor:not(.ttm-icon_element-fill) i{
+    color: #2a2867;
+}
 /** Skin-bg-color **/
-.ttm-bgcolor-skincolor, .ttm-btn.ttm-btn-style-border.ttm-btn-color-grey:not(.btn-inline):hover,
+.ttm-btn.ttm-btn-style-border.ttm-btn-color-grey:not(.btn-inline):hover,
 .ttm-btn.ttm-btn-style-border.ttm-btn-color-grey:not(.btn-inline):hover,
 .ttm-blog-single .ttm-blog-single-content .ttm-social-share-wrapper .social-icons li a:hover,
 .ttm-pf-single-content-wrapper .ttm-social-share-wrapper .social-icons li a:hover,
@@ -627,7 +628,7 @@ nav.main-menu ul.menu li.active > a, .widget_info .widget_icon i, a:hover, .soci
 .newsletter-form input[type="submit"], .featured-imagebox-team.style2:hover .featured-content, 
 .featured-imagebox-portfolio.style3:hover .ttm-media-link a, [data-tooltip]:after, 
 .ttm-progress-bar .progress-bar.progress-bar-color-bar_skincolor, 
-.ttm-btn-style-fill.ttm-btn-color-skincolor, .featured-imagebox-blog .ttm-box-post-date, 
+.featured-imagebox-blog .ttm-box-post-date, 
 .testimonials.style1 .testimonial-content i:before, 
 .ttm-bgcolor-skincolor > .ttm-bg-layer > .ttm-col-wrapper-bg-layer-inner, 
 #site-header-menu .site-navigation .sep-img, .ttm-icon_element-fill.ttm-icon_element-color-skincolor, 
@@ -670,8 +671,15 @@ nav.main-menu ul.menu ul.mega-submenu li > a:not(.mega-menu-link):before,
 .pagination-block .page-numbers.current, #totop.top-visible {
     background-color: #c78665;
 }
+.ttm-btn-style-fill.ttm-btn-color-skincolor{
+    background-color: transparent;
+    border-color: #000000;
+}
 .widget.widget-nav-menu ul li.active a{
     background-color: #310830;
+}
+.ttm-bgcolor-skincolor{
+    background-color: #110028;
 }
 
 .widget.widget-nav-menu ul li:hover:after{

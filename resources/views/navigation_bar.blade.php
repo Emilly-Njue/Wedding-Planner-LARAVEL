@@ -107,7 +107,7 @@
                                     <li class="mega-menu-item">
                                         <a href="{{ route('portfolio') }}" class="mega-menu-link">Portfolio</a>
                                     </li>
-                                    <li><a href="contact-us.html">Contact Us</a></li>
+                                    <li><a href="{{ route('contact-us') }}">Contact Us</a></li>
                                 </ul>
                             </nav>
                             <div class="header_extra d-flex flex-row align-items-center justify-content-end ">
