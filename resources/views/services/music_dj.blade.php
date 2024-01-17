@@ -77,6 +77,7 @@
                                                             <option value="popularity">Diani</option>
                                                             <option value="rating">Nairobi</option>
                                                             <option value="date">Naivasha</option>
+                                                            <option value="date">Other Venue</option>
                                                         </select>
                                                     </span>
                                                 </span>

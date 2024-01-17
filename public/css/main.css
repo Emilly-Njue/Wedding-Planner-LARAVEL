@@ -668,8 +668,11 @@ nav.main-menu ul.menu > li > a:before,
 .testimonials.style4 .testimonial-content i:before,
 .featured-imagebox.featured-imagebox-event .event-number:before,
 nav.main-menu ul.menu ul.mega-submenu li > a:not(.mega-menu-link):before,
-.pagination-block .page-numbers.current, #totop.top-visible {
+.pagination-block .page-numbers.current {
     background-color: #c78665;
+}
+#totop.top-visible{
+    background-color: #42004a;
 }
 .ttm-btn-style-fill.ttm-btn-color-skincolor{
     background-color: transparent;

@@ -91,7 +91,6 @@
                                         <ul class="mega-submenu">
                                             <li><a href="{{ route('about-us') }}">About Us</a></li>
                                             <li><a href="{{ route('services') }}">Services</a></li>
-                                            <li><a href="our-team.html">Our Team</a></li>
                                         </ul>
                                     </li>
                                     <li class="mega-menu-item">
@@ -151,7 +150,7 @@
                                                     <h5>Our Address</h5>
                                                 </div>
                                                 <div class="featured-desc">
-                                                    <p>Evanto HQ 24 Karen, Nairobi, Kenya</p>
+                                                    <p>The Hub, Karen, Nairobi, Kenya</p>
                                                 </div>
                                             </div>
                                         </div>

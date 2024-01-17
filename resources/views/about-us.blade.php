@@ -117,9 +117,6 @@
                                     <div class="featured-title">
                                         <h5>Exclusive Events</h5>
                                     </div>
-                                    <div class="btn-link">
-                                        <a href="{{ route('music') }}">read more</a>
-                                    </div>
                                 </div>
                         </div><!--featured-imagebox end-->
                     </div>
@@ -134,9 +131,6 @@
                                     <div class="featured-title">
                                         <h5>Global Reputation</h5>
                                     </div>
-                                    <div class="btn-link">
-                                        <a href="{{ route('decoration') }}">read more</a>
-                                    </div>
                                 </div>
                         </div><!--featured-imagebox-event end-->
                     </div>
@@ -150,9 +144,6 @@
                             <div class="featured-content featured-content-portfolio">
                                 <div class="featured-title">
                                     <h5>Luxury Weddings</h5>
-                                </div>
-                                <div class="btn-link">
-                                    <a href="{{ route('food') }}">read more</a>
                                 </div>
                             </div>
                         </div><!--featured-imagebox end-->
@@ -220,7 +211,7 @@
                                         </span>
                                         <sub>+</sub>
                                     </h4>
-                                    <h3 class="ttm-fid-title">Amazig Cakes</h3>
+                                    <h3 class="ttm-fid-title">Amazing Cakes</h3>
                                 </div>
                             </div><!-- ttm-fid end -->
                         </div>

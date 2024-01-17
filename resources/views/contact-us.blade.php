@@ -117,7 +117,7 @@
                                                     <h5>Location</h5>
                                                 </div>
                                                 <div class="featured-desc">
-                                                    <p>4578 Beverly Rd<br>Brooklyn NewYork</p>
+                                                    <p class="white-text">12345-00100<br>The Hub, Karen</p>
                                                 </div>
                                             </div>
                                         </div><!-- featured-icon-box end -->
@@ -133,7 +133,7 @@
                                                     <h5>Call Or Email</h5>
                                                 </div>
                                                 <div class="featured-desc">
-                                                    <p>+ (123) 456 7890<br>info@wedding.com</p>
+                                                    <p class="white-text">+ (254) 74 567 8911<br>info@wedding.com</p>
                                                 </div>
                                             </div>
                                         </div><!-- featured-icon-box end -->
@@ -158,7 +158,7 @@
                             </div>
                             <div class="col-lg-7 col-md-7 col-sm-12">
                                 <div class="border pt-35 pr-30 pb-40 pl-30">
-                                    <h5>Do You Have Any Questions?</h5>
+                                    <h5 style="font-family: 'Alkatra', 'Croissant One', 'Faster One', 'Great Vibes', 'Lobster', 'Rubik', 'Sail', sans-serif;">Let's Spark Your Love Story: Pop into Our Inbox!</h5>
                                     <form id="contactform" class="contactform wrap-form pt-5 clearfix" method="post" novalidate="novalidate" action="#">
                                         <div class="row">
                                             <div class="col-md-6">

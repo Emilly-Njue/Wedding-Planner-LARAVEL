@@ -59,7 +59,7 @@
                             <div class="featured-content">
                                 <div class="featured-category">Planning</div>
                                 <div class="featured-title">
-                                    <h5><a href="lovely-decoration.html">Lovely Decoration</a></h5>
+                                    <h5><a href="{{ route('decoration') }}">Lovely Decoration</a></h5>
                                 </div>
                                 <div class="featured-desc">
                                     <p>We always be on time and ready to give you the great service possible.</p>
