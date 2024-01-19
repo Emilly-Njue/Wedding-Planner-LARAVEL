@@ -40,6 +40,12 @@ return [
             'driver' => 'session',
             'provider' => 'users',
         ],
+
+        // Add this section for admin authentication
+        'admin' => [
+        'driver' => 'session',
+        'provider' => 'admin_registers',
+    ],
     ],
 
     /*
@@ -64,6 +70,12 @@ return [
             'driver' => 'eloquent',
             'model' => App\Models\User::class,
         ],
+
+        // Add this section for admin authentication
+        'admin_registers' => [
+        'driver' => 'eloquent',
+        'model' => App\Models\AdminRegister::class,
+    ],
 
         // 'users' => [
         //     'driver' => 'database',

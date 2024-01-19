@@ -49,3 +49,7 @@ Route::get('contact-us', [ContactController::class, 'contact'])->name('contact-u
 
 // ADMIN
 Route::get('admin', [AdminController::class, 'admin'])->name('admin');
+Route::get('/admin/login', [AdminController::class, 'showLoginForm'])->name('admin.login');
+Route::post('/admin/login', [AdminController::class, 'login'])->name('admin.login.submit');
+Route::get('/admin/register', [AdminController::class, 'showRegisterForm'])->name('admin.register');
+Route::post('/admin/register', [AdminController::class, 'register'])->name('admin.register.submit');
