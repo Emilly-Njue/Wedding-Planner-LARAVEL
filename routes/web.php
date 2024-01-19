@@ -53,3 +53,4 @@ Route::get('/admin/login', [AdminController::class, 'showLoginForm'])->name('adm
 Route::post('/admin/login', [AdminController::class, 'login'])->name('admin.login.submit');
 Route::get('/admin/register', [AdminController::class, 'showRegisterForm'])->name('admin.register');
 Route::post('/admin/register', [AdminController::class, 'register'])->name('admin.register.submit');
+Route::post('/admin/logout', [AdminController::class, 'logout'])->name('admin.logout');

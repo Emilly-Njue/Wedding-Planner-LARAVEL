@@ -7,6 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
 
+
 class AdminRegister extends Authenticatable
 {
     use HasFactory, Notifiable;
@@ -16,6 +17,8 @@ class AdminRegister extends Authenticatable
         'last_name',
         'email',
         'password',
+        'verification_code',
+
     ];
 
     // Implement the necessary methods from Authenticatable

@@ -36,12 +36,15 @@
                                                 <input class="form-control" id="inputPassword" type="password" name="password" placeholder="Password" required />
                                                 <label for="inputPassword">Password</label>
                                             </div>
+                                            <div class="form-floating mb-3">
+                                                <input class="form-control" id="inputVerificationCode" type="text" name="verification_code" placeholder="Verification Code" required />
+                                                <label for="inputVerificationCode">Verification Code</label>
+                                            </div>
                                             <div class="form-check mb-3">
                                                 <input class="form-check-input" id="inputRememberPassword" type="checkbox" name="remember" value="1" />
                                                 <label class="form-check-label" for="inputRememberPassword">Remember Password</label>
                                             </div>
                                             <div class="d-flex align-items-center justify-content-between mt-4 mb-0">
-                                                <a class="small" href="password.html">Forgot Password?</a>
                                                 <button type="submit" class="btn btn-primary">Login</button>
                                             </div>
                                         </form>
