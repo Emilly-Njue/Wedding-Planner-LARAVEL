@@ -107,11 +107,12 @@
                                         <a href="{{ route('portfolio') }}" class="mega-menu-link">Portfolio</a>
                                     </li>
                                     <li><a href="{{ route('contact-us') }}">Contact Us</a></li>
+                                    <li><a href="{{ route('admin') }}">ADMIN</a></li>
+
                                 </ul>
                             </nav>
                             <div class="header_extra d-flex flex-row align-items-center justify-content-end ">
                                 <div class="header_search">
-                                    <a href="#" class="btn-default search_btn"><i class="ti ti-search"></i></a>
                                     <div class="header_search_content">
                                         <form id="searchbox" method="get" action="#">
                                             <input class="search_query" type="text" id="search_query_top" name="s" placeholder="Enter Keyword" value="">

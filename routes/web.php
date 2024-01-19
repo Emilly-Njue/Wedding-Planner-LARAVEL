@@ -4,7 +4,8 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ServicesController;
 use App\Http\Controllers\PortfolioController;
 use App\Http\Controllers\AboutController;
-use App\Http\Controllers\contactController;
+use App\Http\Controllers\ContactController;
+use App\Http\Controllers\AdminController;
 
 
 /*
@@ -46,3 +47,5 @@ Route::get('about-us', [AboutController::class, 'about'])->name('about-us');
 // CONTACT US PAGE
 Route::get('contact-us', [ContactController::class, 'contact'])->name('contact-us');
 
+// ADMIN
+Route::get('admin', [AdminController::class, 'admin'])->name('admin');
