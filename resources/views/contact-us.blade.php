@@ -47,7 +47,7 @@
 
                                         <div class="ttm-horizontal_sep width-100 mb-20"></div>
                                         <h5 style="font-size:20px; font-weight: bolder; font-style: italic;">Email & Office Hours</h5>
-                                        <a class="ttm-btn-color-skincolor" href="#">Mon – Sat: 9.00am to 7.00pm<br>Sunday: Closed<br>wedco@wedding.com</a>
+                                        <a class="ttm-btn-color-skincolor" href="#">Mon – Sat: 9.00am to 7.00pm<br>Sunday: Closed<br>wedco.2024@gmail.com</a>
 
                                     </div>
                                 </div>
@@ -61,7 +61,7 @@
 
                                         <div class="ttm-horizontal_sep width-100 mb-20"></div>
                                         <h5 style="font-size:20px; font-weight: bolder; font-style: italic;">Email & Office Hours</h5>
-                                        <a class="ttm-btn-color-white" href="#">Mon – Sat: 9.00am to 7.00pm<br>Sunday: Closed <br>wedco@wedding.com</a>
+                                        <a class="ttm-btn-color-white" href="#">Mon – Sat: 9.00am to 7.00pm<br>Sunday: Closed <br>wedco.2024@gmail.com</a>
 
                                     </div>
                                 </div>
@@ -75,7 +75,7 @@
 
                                         <div class="ttm-horizontal_sep width-100 mb-20"></div>
                                         <h5 style="font-size:20px; font-weight: bolder; font-style: italic;">Email & Office Hours</h5>
-                                        <a class="ttm-btn-color-skincolor" href="#">Mon – Sat: 9.00am to 7.00pm<br>Sunday: Closed<br>wedco@wedding.com</a>
+                                        <a class="ttm-btn-color-skincolor" href="#">Mon – Sat: 9.00am to 7.00pm<br>Sunday: Closed<br>wedco.2024@gmail.com</a>
 
                                     </div>
                                 </div>
@@ -133,7 +133,7 @@
                                                     <h5>Call Or Email</h5>
                                                 </div>
                                                 <div class="featured-desc">
-                                                    <p class="white-text">+ (254) 74 567 8911<br>info@wedding.com</p>
+                                                    <p class="white-text">+ (254) 74 567 8911<br>wedco.2024@gmail.com</p>
                                                 </div>
                                             </div>
                                         </div><!-- featured-icon-box end -->
@@ -163,7 +163,7 @@
                                         <div class="row">
                                             <div class="col-md-6">
                                                 <label>
-                                                    <span class="text-input"><input name="name" type="text" value="" placeholder="Your Name*" required="required"></span>
+                                                    <span class="text-input"><input name="user_name" type="text" value="" placeholder="Your Name*" required="required"></span>
                                                 </label>
                                             </div>
                                             <div class="col-md-6">
@@ -185,13 +185,51 @@
                                             </div>
                                         </div>
                                         <label>
-                                            <span class="text-input"><input name="phone" type="text" value="" placeholder="Subject" required="required"></span>
+                                            <div class="dropdown">
+                                                <button onclick="toggleDropdown()" type="button" style="background-color:black;">Select services</button>
+                                                <div id="servicesDropdown" class="dropdown-content">
+                                                    <label><input type="checkbox" name="services[]" value="Invitation cards"> Invitation cards</label>
+                                                    <label><input type="checkbox" name="services[]" value="Seating Charts"> Seating Charts</label>
+                                                    <label><input type="checkbox" name="services[]" value="Venues & Decoration"> Venues & Decoration</label>
+                                                    <label><input type="checkbox" name="services[]" value="Catering"> Catering (Food & Drinks)</label>
+                                                    <label><input type="checkbox" name="services[]" value="Photography, DJ & MC"> Photography, DJ & MC</label>
+                                                    <label><input type="checkbox" name="services[]" value="Gowns & Suits"> Gowns & Suits</label>
+                                                    <label><input type="checkbox" name="services[]" value="Transport"> Transport</label>
+                                                    <label><input type="checkbox" name="services[]" value="Whole package"> Whole package</label>
+                                                </div>
+                                            </div>
+                                            <input type="text" id="selectedServices" name="selectedServices" readonly style="margin-bottom:20px;">
+                                        </label>
+
+                                        <label>
+                                            <span class="text-input"><input name="subject" type="text" value="" placeholder="Subject" required="required"></span>
                                         </label>
                                         <label>
                                             <span class="text-input"><textarea name="message" rows="4" placeholder="Your Messages" required="required"></textarea></span>
                                         </label>
+
                                         <button class="submit ttm-btn ttm-btn-size-md ttm-btn-shape-rounded ttm-btn-style-fill ttm-btn-color-skincolor w-100" type="submit">Send A Message!</button>
+
+                                        <script>
+                                            function toggleDropdown() {
+                                                var dropdown = document.getElementById('servicesDropdown');
+                                                dropdown.classList.toggle('show');
+                                            }
+
+                                            document.addEventListener('click', function(event) {
+                                                var dropdown = document.getElementById('servicesDropdown');
+                                                if (!event.target.matches('.dropdown button') && !event.target.matches('.dropdown-content label')) {
+                                                    dropdown.classList.remove('show');
+                                                }
+                                            });
+
+                                            document.addEventListener('change', function() {
+                                                var selectedOptions = Array.from(document.querySelectorAll('input[name="services[]"]:checked')).map(option => option.value);
+                                                document.getElementById('selectedServices').value = selectedOptions.join(', ');
+                                            });
+                                        </script>
                                     </form>
+
                                 </div>
                             </div>
                         </div><!-- row end -->

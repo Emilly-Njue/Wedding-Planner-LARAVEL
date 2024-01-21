@@ -184,7 +184,7 @@
                                     </div>
                                     <div class="featured-content featured-content-portfolio">
                                         <div class="featured-title">
-                                            <h5><a href="bride-groom.html" style="color: white;">Bride & Groom</a></h5>
+                                            <h5><a href="{{ route('bridegroom') }}" style="color: white;">Bride & Groom</a></h5>
                                         </div>
                                     </div>
                                 </div><!--featured-imagebox-portfolio end-->

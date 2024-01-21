@@ -68,6 +68,26 @@
                                     </div>
                                 </nav>
                             </div>
+                            <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#pagesCollapseError" aria-expanded="false" aria-controls="pagesCollapseError">
+                                Clients
+                            </a>
+
+                            <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#pagesCollapserror" aria-expanded="false" aria-controls="pagesCollapserror">
+                                Bookings
+                                <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+                            </a>
+                            <div class="collapse" id="pagesCollapserror" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordionPages">
+                                <nav class="sb-sidenav-menu-nested nav">
+                                    <a class="nav-link" href="">Invitation cards</a>
+                                    <a class="nav-link" href="">Seating Charts</a>
+                                    <a class="nav-link" href="">Venues & Decoration</a>
+                                    <a class="nav-link" href="">Catering (Food & Drinks)</a>
+                                    <a class="nav-link" href="">Photography, DJ & MC</a>
+                                    <a class="nav-link" href="">Gowns & Suits</a>
+                                    <a class="nav-link" href="">Transport</a>
+                                    <a class="nav-link" href="">Whole package</a>
+                                </nav>
+                            </div>
                             <div class="sb-sidenav-menu-heading">Addons</div>
                             <a class="nav-link" href="tables.html">
                                 <div class="sb-nav-link-icon"><i class="fas fa-table"></i></div>
