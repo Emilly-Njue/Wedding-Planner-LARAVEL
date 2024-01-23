@@ -6,6 +6,11 @@ use App\Http\Controllers\PortfolioController;
 use App\Http\Controllers\AboutController;
 use App\Http\Controllers\ContactController;
 use App\Http\Controllers\AdminController;
+use App\Http\Controllers\BookingController;
+use App\Http\Controllers\ClientController;
+use App\Http\Controllers\MessageController;
+
+
 
 
 /*
@@ -54,3 +59,21 @@ Route::post('/admin/login', [AdminController::class, 'login'])->name('admin.logi
 Route::get('/admin/register', [AdminController::class, 'showRegisterForm'])->name('admin.register');
 Route::post('/admin/register', [AdminController::class, 'register'])->name('admin.register.submit');
 Route::post('/admin/logout', [AdminController::class, 'logout'])->name('admin.logout');
+
+// BOOKINGS
+Route::post('/submit-booking', [BookingController::class, 'store'])->name('submit.booking');
+Route::get('/admin/bookings', [BookingController::class, 'index'])->name('admin.bookings');
+Route::get('/booking/{id}/mark-as-fully-paid', [BookingController::class, 'markAsFullyPaid'])->name('booking.markAsFullyPaid');
+Route::get('/booking/{id}/mark-as-paid-deposit', [BookingController::class, 'markAsPaidDeposit'])->name('booking.markAsPaidDeposit');
+Route::get('/booking/{id}/mark-as-completed', [BookingController::class, 'markAsCompleted'])->name('booking.markAsCompleted');
+Route::get('/booking/{id}/mark-as-in-progress', [BookingController::class, 'markAsInProgress'])->name('booking.markAsInProgress');
+Route::get('/booking/{id}/cancel-service', [BookingController::class, 'cancelService'])->name('booking.cancelService');
+Route::get('/booking/{id}/delete', [BookingController::class, 'delete'])->name('booking.delete');
+
+// CLIENTS
+Route::get('/admin/clients', [ClientController::class, 'index'])->name('admin.clients');
+Route::get('/client/{id}/delete', [ClientController::class, 'delete'])->name('client.delete');
+
+// Messages
+Route::get('/admin/messages', [MessageController::class, 'index'])->name('admin.messages');
+Route::get('/message/{id}/delete', [MessageController::class, 'delete'])->name('message.delete');

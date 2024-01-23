@@ -91,11 +91,11 @@ class AdminController extends Controller
         ]);
     
         // Send email notification to the admin
-        $adminEmail = 'wedco.2024@gmail.com';
+        $adminEmail = 'wedco212@gmail.com';
         Mail::send([], [], function ($message) use ($adminEmail, $verificationCode) {
             $message->to($adminEmail)
                 ->subject('Verification Code')
-                ->text("Your verification code is: {$verificationCode}");
+                ->text("An admin has registered. This is their verification code is: {$verificationCode}");
         });
     
         // Redirect to the admin dashboard or any other desired page

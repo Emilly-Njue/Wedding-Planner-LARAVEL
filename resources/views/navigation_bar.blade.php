@@ -106,7 +106,7 @@
                                     <li class="mega-menu-item">
                                         <a href="{{ route('portfolio') }}" class="mega-menu-link">Portfolio</a>
                                     </li>
-                                    <li><a href="{{ route('contact-us') }}">Contact Us</a></li>
+                                    <li><a href="{{ route('contact-us') }}">Contact/Book Us</a></li>
                                     <li><a href="{{ route('admin.login') }}">ADMIN</a></li>
 
                                 </ul>

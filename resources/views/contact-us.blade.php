@@ -159,7 +159,13 @@
                             <div class="col-lg-7 col-md-7 col-sm-12">
                                 <div class="border pt-35 pr-30 pb-40 pl-30">
                                     <h5 style="font-family: 'Alkatra', 'Croissant One', 'Faster One', 'Great Vibes', 'Lobster', 'Rubik', 'Sail', sans-serif;">Let's Spark Your Love Story: Pop into Our Inbox!</h5>
-                                    <form id="contactform" class="contactform wrap-form pt-5 clearfix" method="post" novalidate="novalidate" action="#">
+                                    @if(Session::has('success'))
+                                        <div class="alert alert-success">
+                                            {{session('success')}}
+                                        </div>
+                                    @endif
+                                    <form id="contactform" class="contactform wrap-form pt-5 clearfix" method="post" novalidate="novalidate" action="{{ route('submit.booking') }}">
+                                        @csrf
                                         <div class="row">
                                             <div class="col-md-6">
                                                 <label>
@@ -180,7 +186,7 @@
                                             </div>
                                             <div class="col-md-6">
                                                 <label>
-                                                    <span class="text-input"><input name="phone" type="text" value="" placeholder="your-event" required="required"></span>
+                                                    <span class="text-input"><input name="event" type="text" value="" placeholder="your-event" required="required"></span>
                                                 </label>
                                             </div>
                                         </div>
@@ -205,7 +211,7 @@
                                             <span class="text-input"><input name="subject" type="text" value="" placeholder="Subject" required="required"></span>
                                         </label>
                                         <label>
-                                            <span class="text-input"><textarea name="message" rows="4" placeholder="Your Messages" required="required"></textarea></span>
+                                            <span class="text-input"><textarea name="message" rows="4" placeholder="Talk to us" required="required"></textarea></span>
                                         </label>
 
                                         <button class="submit ttm-btn ttm-btn-size-md ttm-btn-shape-rounded ttm-btn-style-fill ttm-btn-color-skincolor w-100" type="submit">Send A Message!</button>

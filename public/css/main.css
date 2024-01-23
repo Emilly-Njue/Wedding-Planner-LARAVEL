@@ -46,36 +46,41 @@
     General
 ------------------------*/
 
-        /* Add your own styling as needed */
-        .dropdown {
-            position: relative;
-            display: inline-block;
-        }
+    /* Add your own styling as needed */
+    .dropdown {
+        position: relative;
+        display: inline-block;
+    }
 
-        .dropdown-content {
-            display: none;
-            position: absolute;
-            background-color: #ffffff;
-            color: #000;
-            min-width: 160px;
-            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-            z-index: 1;
-            max-height: 150px; /* Set the maximum height as needed */
-            overflow-y: auto; 
-        }        
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #ffffff;
+        color: #000;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+        max-height: 150px; /* Set the maximum height as needed */
+        overflow-y: auto; 
+    }        
 
-        .dropdown-content label {
-            display: block;
-            padding: 8px 12px;
-        }
+    .dropdown-content label {
+        display: block;
+        padding: 8px 12px;
+    }
 
-        .dropdown-content input {
-            margin-right: 8px;
-        }
+    .dropdown-content input {
+        margin-right: 8px;
+    }
 
-        .show {
-            display: block;
-        }
+    .show {
+        display: block;
+    }
+
+    .alert{
+        background: linear-gradient(to right, rgb(9, 1, 20), rgb(184, 169, 255), rgb(126, 74, 105));
+        color: white;
+    }
 
 /** Variables **/
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { 

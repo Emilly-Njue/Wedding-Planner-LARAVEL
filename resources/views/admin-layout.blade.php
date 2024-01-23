@@ -68,26 +68,40 @@
                                     </div>
                                 </nav>
                             </div>
-                            <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#pagesCollapseError" aria-expanded="false" aria-controls="pagesCollapseError">
+                            <a class="nav-link collapsed" href="{{ route('admin.clients') }}" data-bs-toggle="collapse" data-bs-target="#pagesCollapseClients" aria-expanded="false" aria-controls="pagesCollapseClients">
                                 Clients
                             </a>
+                            <div class="collapse" id="pagesCollapseClients" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordionPages">
+                            <ul class="nav flex-column">
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="{{ route('admin.clients') }}">All Clients</a>
+                                    </li>
+                                    <!-- Add other links related to bookings as needed -->
+                                </ul>                            </div>
 
-                            <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#pagesCollapserror" aria-expanded="false" aria-controls="pagesCollapserror">
+                            <a class="nav-link collapsed" href="{{ route('admin.bookings') }}" data-bs-toggle="collapse" data-bs-target="#pagesCollapseBookings" aria-expanded="false" aria-controls="pagesCollapseBookings">
                                 Bookings
-                                <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
                             </a>
-                            <div class="collapse" id="pagesCollapserror" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordionPages">
-                                <nav class="sb-sidenav-menu-nested nav">
-                                    <a class="nav-link" href="">Invitation cards</a>
-                                    <a class="nav-link" href="">Seating Charts</a>
-                                    <a class="nav-link" href="">Venues & Decoration</a>
-                                    <a class="nav-link" href="">Catering (Food & Drinks)</a>
-                                    <a class="nav-link" href="">Photography, DJ & MC</a>
-                                    <a class="nav-link" href="">Gowns & Suits</a>
-                                    <a class="nav-link" href="">Transport</a>
-                                    <a class="nav-link" href="">Whole package</a>
-                                </nav>
+                            <div class="collapse" id="pagesCollapseBookings" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordionPages">
+                                <!-- Content for Bookings -->
+                                <ul class="nav flex-column">
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="{{ route('admin.bookings') }}">All Bookings</a>
+                                    </li>
+                                </ul>
                             </div>
+
+                            <a class="nav-link collapsed" href="{{ route('admin.messages') }}" data-bs-toggle="collapse" data-bs-target="#pagesCollapseContacts" aria-expanded="false" aria-controls="pagesCollapseContacts">
+                                Messages
+                            </a>
+                            <div class="collapse" id="pagesCollapseContacts" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordionPages">
+                            <ul class="nav flex-column">
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="{{ route('admin.messages') }}">All Messages</a>
+                                    </li>
+                                    <!-- Add other links related to bookings as needed -->
+                                </ul>                            </div>
+
                             <div class="sb-sidenav-menu-heading">Addons</div>
                             <a class="nav-link" href="tables.html">
                                 <div class="sb-nav-link-icon"><i class="fas fa-table"></i></div>
