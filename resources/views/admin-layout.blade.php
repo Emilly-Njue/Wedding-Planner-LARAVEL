@@ -95,17 +95,17 @@
                                 Messages
                             </a>
                             <div class="collapse" id="pagesCollapseContacts" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordionPages">
-                            <ul class="nav flex-column">
+                                <ul class="nav flex-column">
                                     <li class="nav-item">
                                         <a class="nav-link" href="{{ route('admin.messages') }}">All Messages</a>
                                     </li>
-                                    <!-- Add other links related to bookings as needed -->
-                                </ul>                            </div>
+                                </ul>                    
+                            </div>
 
                             <div class="sb-sidenav-menu-heading">Addons</div>
-                            <a class="nav-link" href="tables.html">
+                            <a class="nav-link" href="{{ route('admin.consultations') }}">
                                 <div class="sb-nav-link-icon"><i class="fas fa-table"></i></div>
-                                Tables
+                                Consults
                             </a>
                         </div>
                     </div>

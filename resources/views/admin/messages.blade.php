@@ -1,6 +1,6 @@
 @extends('admin-layout')
-
 @section('content')
+
     <div class="card mb-4">
         <div class="card-header">
             <i class="fas fa-table me-1"></i>
@@ -15,6 +15,7 @@
                             <th>Name</th>
                             <th>Subject</th>
                             <th>Message</th>
+                            <th>Action</th>
                         </tr>
                     </thead>
                     <tfoot>
@@ -22,6 +23,7 @@
                             <th>Name</th>
                             <th>Subject</th>
                             <th>Message</th>
+                            <th>Action</th>
                         </tr>
                     </tfoot>
                     <tbody>

@@ -9,6 +9,7 @@ use App\Http\Controllers\AdminController;
 use App\Http\Controllers\BookingController;
 use App\Http\Controllers\ClientController;
 use App\Http\Controllers\MessageController;
+use App\Http\Controllers\ConsultationController;
 
 
 
@@ -77,3 +78,9 @@ Route::get('/client/{id}/delete', [ClientController::class, 'delete'])->name('cl
 // Messages
 Route::get('/admin/messages', [MessageController::class, 'index'])->name('admin.messages');
 Route::get('/message/{id}/delete', [MessageController::class, 'delete'])->name('message.delete');
+
+// Consults
+Route::get('/admin/consultations', [ConsultationController::class, 'index'])->name('admin.consultations');
+Route::post('/admin/consultations', [ConsultationController::class, 'store'])->name('admin.consultations.store');
+Route::put('/admin/consultations/{id}/completed', [ConsultationController::class, 'markAsCompleted'])->name('admin.consultations.markAsCompleted');
+Route::delete('/admin/consultations/{id}', [ConsultationController::class, 'delete'])->name('admin.consultations.delete');

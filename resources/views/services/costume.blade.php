@@ -52,7 +52,13 @@
                         </aside>
                         <aside class="widget tagcloud-widget with-title">
                             <h3 class="widget-title">Free Consult</h3>
-                            <form id="contactform" class="contactform wrap-form clearfix" method="post" action="#">
+                            @if(Session::has('success'))
+                                <div class="alert alert-success">
+                                    {{session('success')}}
+                                </div>
+                            @endif
+                            <form id="contactform" class="contactform wrap-form clearfix" method="post" action="{{ route('admin.consultations.store') }}">
+                                @csrf
                                         <div class="row">
                                             <div class="col-lg-12">
                                                 <label>
@@ -72,12 +78,17 @@
                                                 <label>
                                                     <span class="text-input">
                                                         <span class="orderby">
-                                                            <select name="orderby" class="select2-hidden-accessible">
-                                                                <option value="menu_order" selected="selected">Visit Venue</option>
-                                                                <option value="popularity">Diani</option>
-                                                                <option value="rating">Nairobi</option>
-                                                                <option value="date">Naivasha</option>
-                                                                <option value="date">Other Venue</option>
+                                                            <select name="topic" class="select2-hidden-accessible">
+                                                                <option value="" selected="selected">Choose a topic</option>
+                                                                <option value="Budget and financial planning">Budget and financial planning</option>
+                                                                <option value="Timeline and scheduling">Timeline and scheduling</option>
+                                                                <option value="Guest list and invitations">Guest list and invitations</option>
+                                                                <option value="Venue selection">Venue selection</option>
+                                                                <option value="Legalities and paperwork">Legalities and paperwork</option>
+                                                                <option value="Attire">Attire</option>
+                                                                <option value="Decor">Decor</option>
+                                                                <option value="Transportation">Transportation</option>
+                                                                <option value="Other">Other</option>
                                                             </select>
                                                         </span>
                                                     </span>
