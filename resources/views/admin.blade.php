@@ -1,7 +1,7 @@
 @extends('admin-layout')
 @section('content')
     <div class="container-fluid px-4">
-        <h1 class="mt-4">Dashboard</h1>
+        <h1 class="mt-4">Hello Admin</h1>
         <ol class="breadcrumb mb-4">
             <li class="breadcrumb-item active">Wedco</li>
         </ol>
@@ -10,7 +10,7 @@
                 <div class="card bg-light text-black mb-4">
                     <div class="card-body">Total Clients</div>
                     <div class="card-footer d-flex align-items-center justify-content-between">
-                        <a class="small text-black stretched-link" href="#">{{App\Models\Client::count()}}</a>
+                        <a class="small text-black stretched-link" href="{{ route('admin.clients') }}">{{App\Models\Client::count()}}</a>
                     </div>
                 </div>
             </div>
@@ -18,7 +18,7 @@
                 <div class="card bg-dark text-white mb-4">
                     <div class="card-body">Successful Bookings</div>
                     <div class="card-footer d-flex align-items-center justify-content-between">
-                        <a class="small text-white stretched-link" href="#">{{App\Models\Booking::count()}}</a>
+                        <a class="small text-white stretched-link" href="{{ route('admin.bookings') }}">{{App\Models\Booking::count()}}</a>
                     </div>
                 </div>
             </div>
@@ -26,7 +26,7 @@
                 <div class="card bg-light text-black mb-4">
                     <div class="card-body">Total Consults</div>
                     <div class="card-footer d-flex align-items-center justify-content-between">
-                        <a class="small text-black stretched-link" href="#">{{App\Models\Consultation::count()}}</a>
+                        <a class="small text-black stretched-link" href="{{ route('admin.consultations') }}">{{App\Models\Consultation::count()}}</a>
                     </div>
                 </div>
             </div>
@@ -34,7 +34,7 @@
                 <div class="card bg-dark text-white mb-4">
                     <div class="card-body">Total Messages</div>
                     <div class="card-footer d-flex align-items-center justify-content-between">
-                        <a class="small text-white stretched-link" href="#">{{App\Models\Message::count()}}</a>
+                        <a class="small text-white stretched-link" href="{{ route('admin.messages') }}">{{App\Models\Message::count()}}</a>
                     </div>
                 </div>
             </div>

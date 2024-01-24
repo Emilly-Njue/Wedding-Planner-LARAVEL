@@ -69,6 +69,13 @@
                                             </div>
                                             <div class="col-lg-12">
                                                 <label>
+                                                    <span class="text-input">
+                                                        <input name="email" type="text" value="" placeholder="Email" required="required">
+                                                    </span>
+                                                </label>
+                                            </div>
+                                            <div class="col-lg-12">
+                                                <label>
                                                     <span class="text-input"><input name="phone" type="text" value="" placeholder="Phone" required="required"></span>
                                                 </label>
                                             </div>

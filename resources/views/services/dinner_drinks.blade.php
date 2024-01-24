@@ -52,45 +52,63 @@
                         </aside>
                         <aside class="widget tagcloud-widget with-title">
                             <h3 class="widget-title">Free Consult</h3>
-                            <form id="contactform" class="contactform wrap-form clearfix" method="post" action="#">
-                                        <div class="row">
-                                            <div class="col-lg-12">
-                                                <label>
-                                                    <span class="text-input">
-                                                        <input name="name" type="text" value="" placeholder="Name" required="required">
-                                                    </span>
-                                                </label>
-                                            </div>
-                                            <div class="col-lg-12">
-                                                <label>
-                                                    <span class="text-input"><input name="phone" type="text" value="" placeholder="Phone" required="required"></span>
-                                                </label>
-                                            </div>
-                                        </div>
-                                        <div class="row">
-                                            <div class="col-lg-12">
-                                                <label>
-                                                    <span class="text-input">
-                                                        <span class="orderby">
-                                                            <select name="orderby" class="select2-hidden-accessible">
-                                                                <option value="menu_order" selected="selected">Visit Venue</option>
-                                                                <option value="popularity">Diani</option>
-                                                                <option value="rating">Nairobi</option>
-                                                                <option value="date">Naivasha</option>
-                                                                <option value="date">Other Venue</option>
-                                                            </select>
-                                                        </span>
-                                                    </span>
-                                                </label>
-                                            </div>
-                                            <div class="col-lg-12">
-                                                <label>
-                                                    <span class="text-input"><textarea name="message" rows="4" placeholder="Messages" required="required"></textarea></span>
-                                                </label>
-                                            </div>
-                                        </div>
-                                        <button class="submit ttm-btn ttm-btn-size-lg ttm-btn-shape-rounded ttm-btn-style-fill ttm-btn-color-skincolor" type="submit">Send A Request</button>
-                                    </form>
+                            @if(Session::has('success'))
+                                <div class="alert alert-success">
+                                    {{session('success')}}
+                                </div>
+                            @endif
+                            <form id="contactform" class="contactform wrap-form clearfix" method="post" action="{{ route('admin.consultations.store') }}">
+                                @csrf
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        <label>
+                                            <span class="text-input">
+                                                <input name="name" type="text" value="" placeholder="Name" required="required">
+                                            </span>
+                                        </label>
+                                    </div>
+                                    <div class="col-lg-12">
+                                        <label>
+                                            <span class="text-input">
+                                                <input name="email" type="text" value="" placeholder="Email" required="required">
+                                            </span>
+                                        </label>
+                                    </div>
+                                    <div class="col-lg-12">
+                                        <label>
+                                            <span class="text-input"><input name="phone" type="text" value="" placeholder="Phone" required="required"></span>
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        <label>
+                                            <span class="text-input">
+                                                <span class="orderby">
+                                                    <select name="topic" class="select2-hidden-accessible">
+                                                        <option value="" selected="selected">Choose a topic</option>
+                                                        <option value="Budget and financial planning">Budget and financial planning</option>
+                                                        <option value="Timeline and scheduling">Timeline and scheduling</option>
+                                                        <option value="Guest list and invitations">Guest list and invitations</option>
+                                                        <option value="Venue selection">Venue selection</option>
+                                                        <option value="Legalities and paperwork">Legalities and paperwork</option>
+                                                        <option value="Attire">Attire</option>
+                                                        <option value="Decor">Decor</option>
+                                                        <option value="Transportation">Transportation</option>
+                                                        <option value="Other">Other</option>
+                                                    </select>
+                                                </span>
+                                            </span>
+                                        </label>
+                                    </div>
+                                    <div class="col-lg-12">
+                                        <label>
+                                            <span class="text-input"><textarea name="message" rows="4" placeholder="Messages" required="required"></textarea></span>
+                                        </label>
+                                    </div>
+                                </div>
+                                <button class="submit ttm-btn ttm-btn-size-lg ttm-btn-shape-rounded ttm-btn-style-fill ttm-btn-color-skincolor" type="submit">Send A Request</button>
+                            </form>
                         </aside>
                     </div>
                     <div class="col-lg-8 content-area">

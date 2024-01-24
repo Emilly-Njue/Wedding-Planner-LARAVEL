@@ -4,7 +4,7 @@
     <div class="card mb-4">
         <div class="card-header">
             <i class="fas fa-table me-1"></i>
-            Our Clients
+            Consults
         </div>
         @if(Session::has('success'))
             <p class="text-success">{{session('success')}}</p>
@@ -40,7 +40,13 @@
                                 <td>{{ $consultation->topic }}</td>
                                 <td>{{ $consultation->message }}</td>
                                 <td>
-                                    <a href="{{ route('admin.consultations.markAsCompleted', $consultation->id) }}" class="btn btn-light" title="Completed"><i class="fa fa-hourglass"></i></a>
+                                    <form action="{{ route('admin.consultations.markAsCompleted', $consultation->id) }}" method="POST" style="display: inline;">
+                                        @csrf
+                                        @method('PUT')
+                                        <button type="submit" class="btn btn-light" title="Completed">
+                                            <i class="fa fa-hourglass"></i>
+                                        </button>
+                                    </form>                                    
                                     <a href="{{ route('admin.consultations.delete', $consultation->id) }}" class="btn btn-outline-danger" onclick="return confirm('Are you sure you want to delete this data?')" title="Delete"><i class="fa fa-trash"></i></a>
                                 </td>
                                 <td>{{ $consultation->status }}</td>
